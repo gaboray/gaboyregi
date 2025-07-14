@@ -1,0 +1,178 @@
+body{
+	padding: 0;margin: 0;
+	font-family: 'Bahnschrift';
+	font-stretch: condensed;
+	font-weight: 100;
+}
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('fonts/Bahnschrift-Font-Family'/BAHNSCHRIFT 1.TTF) format('truetype');
+}
+@font-face {
+  font-family: 'BetterGrade';
+  src: url('fonts/BetterGrade-519DV.ttf') format('truetype');
+}
+
+#encabezado{
+	background-image: url('fotos/1.jpg');
+	position: relative;
+	background-size: 100%;
+	width: 100%;
+	height: 600px;
+}
+#cover-absolute{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#cover-content{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+h1{
+	font-family: 'BetterGrade';
+	font-size: 5em;
+	font-weight: normal;
+	margin: 0;
+}
+h2{
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: .1em;
+}
+#cover-absolute img{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.ws{
+	text-align: center;
+}
+.column2{
+	display: flex;
+}
+.column{
+	width: 50%;
+}
+.section-content{
+}
+.title{
+	font-family: 'BetterGrade';
+	font-size: 3em;
+	font-weight: normal;
+}
+.section-content img{
+	width: 80px;
+}
+
+.second-btn{
+	text-decoration: none;
+	color: #6F8167;
+	outline: 2px solid #6F8167;
+	display: block;
+	width: 150px;
+	height: 35px;
+	align-content: center;
+	margin: auto;
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.first-btn{
+	text-decoration: none;
+	background-color: #6F8167;
+	color: #EAE1D0;
+	width: 150px;
+	height: 35px;
+	align-content: center;
+	margin: auto;
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	text-align: center;
+	display: flex;
+}
+.first-btn > div{
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+.first-btn img{
+	width: 20px;
+	margin-right: 5px;
+	align-content: center;
+	align-items: center;
+	position: absolute;
+}
+.first-btn span{
+	margin-left: 25px;
+}
+.collage img{
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#columna-versiculo{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #6F8167;
+}
+#versiculo{
+	width: 130px;
+}
+#versiculo p{
+	margin-bottom: 5px;
+}
+#versiculo span{
+	font-size: .8em;
+}
+#colores {
+  display: flex;
+  justify-content: center;
+}
+#colores span{
+	width: 15px;
+	height: 15px;
+	border: 1px solid #000;
+	border-radius: 100%;
+}
+#c2{
+	background-color: #B4AA85;
+}
+#c3{
+	background-color: #6F8167;
+}
+.primer{
+	margin-top: 25px;
+}
+.nomargen{
+	margin-top: 0;
+}
+.collage{
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+.title2{
+	font-size: 2em;
+	letter-spacing: .1em;
+	margin-top: 25px;
+}
+.emblema{
+	background: #EAE1D0;
+	position: relative;
+	padding: 50px;
+}
+.rasgado1 > img{
+	display: block;
+}
